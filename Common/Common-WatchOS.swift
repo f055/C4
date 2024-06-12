@@ -2,10 +2,10 @@ import WatchKit
 
 extension WKInterfaceLabel: ToggleableLabel {
     func turnOn() {
-        setTextColor(UIColor.whiteColor())
+        setTextColor(UIColor.white)
     }
 
     func turnOff() {
-        setTextColor(UIColor.darkGrayColor())
+        setTextColor(UIColor.darkGray)
     }
 }

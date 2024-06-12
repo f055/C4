@@ -2,10 +2,10 @@ import UIKit
 
 extension UILabel: ToggleableLabel {
     func turnOn() {
-        textColor = UIColor.whiteColor()
+        textColor = UIColor.white
     }
 
     func turnOff() {
-        textColor = UIColor.darkGrayColor()
+        textColor = UIColor.darkGray
     }
 }

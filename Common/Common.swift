@@ -120,17 +120,17 @@ struct LabelProvider: NaturalTimeLabelProvider {
     var hourLabels = [ToggleableLabel]()
     var minuteLabels = [ToggleableLabel]()
 
-    func showTime(hour hour: Int, minute: Int) {
+    func showTime(hour: Int, minute: Int) {
         itLabel.turnOn()
         isLabel.turnOn()
 
         if minute >= 35 {
             // "it is [x] to [next hour]"
-            setHour(hour + 1)
-            setMinute(minute)
+            setHour(hour: hour + 1)
+            setMinute(minute: minute)
         } else {
-            setHour(hour)
-            setMinute(minute)
+            setHour(hour: hour)
+            setMinute(minute: minute)
         }
     }
 
@@ -163,7 +163,7 @@ struct LabelProvider: NaturalTimeLabelProvider {
         case 12:
             twelveLabel.turnOn()
         default: // handle 24-hour locales
-            setHour(hour % 12)
+            setHour(hour: hour % 12)
         }
     }
 
