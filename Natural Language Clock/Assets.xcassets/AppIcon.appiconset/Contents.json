@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "iPad_Spotlight 1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
@@ -62,6 +63,7 @@
       "size" : "60x60"
     },
     {
+      "filename" : "iPad_Spotlight 2.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
@@ -123,11 +125,13 @@
       "size" : "76x76"
     },
     {
+      "filename" : "iPadPro.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "AppStore.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
