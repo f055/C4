@@ -1,309 +1,278 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Natural_Language_Clock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Timestand_Text_Time_Word_Clock_Nightstand" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LT7-Zi-zlD">
-                                <rect key="frame" x="28" y="28" width="544" height="564"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LT7-Zi-zlD">
+                                <rect key="frame" x="28" y="28" width="678" height="356"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="scI-ND-9HS">
-                                        <rect key="frame" x="0.0" y="0.0" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="678" height="44.666666666666664"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7a-dR-g9I">
-                                                <rect key="frame" x="0.0" y="0.0" width="29" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="28.666666666666668" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yS6-1C-mQc">
-                                                <rect key="frame" x="143" y="0.0" width="29.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="187.33333333333331" y="0.0" width="29.666666666666657" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HALF" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wj4-wJ-cyq">
-                                                <rect key="frame" x="286" y="0.0" width="82" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="375.33333333333331" y="0.0" width="82.333333333333314" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYy-48-tDm">
-                                                <rect key="frame" x="482" y="0.0" width="62" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="616.33333333333337" y="0.0" width="61.666666666666629" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="qOj-6G-Hst">
-                                        <rect key="frame" x="0.0" y="70.5" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="44.666666666666657" width="678" height="44.333333333333343"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUARTER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i51-TI-nDZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="149.66666666666666" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TWENTY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLL-Tz-b78">
-                                                <rect key="frame" x="409.5" y="0.0" width="134.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="543.66666666666663" y="0.0" width="134.33333333333337" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="5Iw-wI-IzM">
-                                        <rect key="frame" x="0.0" y="141" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="89" width="678" height="44.666666666666657"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIVE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBY-Dw-B2g">
-                                                <rect key="frame" x="0.0" y="0.0" width="68" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINUTES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfd-VA-NvU">
-                                                <rect key="frame" x="213.5" y="0.0" width="142.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="280.33333333333331" y="0.0" width="142.33333333333331" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pES-ol-sTO">
-                                                <rect key="frame" x="501" y="0.0" width="43" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="635" y="0.0" width="43" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Gdr-sn-9je">
-                                        <rect key="frame" x="0.0" y="211.5" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="133.66666666666666" width="678" height="44.333333333333343"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slE-U6-0EN">
-                                                <rect key="frame" x="0.0" y="0.0" width="81" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wI-K8-MtJ" userLabel="ONE">
-                                                <rect key="frame" x="228.5" y="0.0" width="66.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="294.66666666666669" y="0.0" width="66.666666666666686" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THREE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alR-ul-U2s" userLabel="THREE">
-                                                <rect key="frame" x="442" y="0.0" width="102" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="576" y="0.0" width="101.99999999999989" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="qns-tU-3Oz">
-                                        <rect key="frame" x="0.0" y="282" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="178" width="678" height="44.666666666666657"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TWO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob8-iV-xcW" userLabel="TWO">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOUR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QY-Qz-oaF" userLabel="FOUR">
-                                                <rect key="frame" x="232.5" y="0.0" width="86.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="299" y="0.0" width="86.666666666666686" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIVE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi5-2h-uqx" userLabel="FIVE">
-                                                <rect key="frame" x="476" y="0.0" width="68" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="610" y="0.0" width="68" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="EdS-Qq-wYA">
-                                        <rect key="frame" x="0.0" y="352.5" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="222.66666666666666" width="678" height="44.333333333333343"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIX" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BB0-Bh-aB9" userLabel="SIX">
-                                                <rect key="frame" x="0.0" y="0.0" width="52" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="52" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEVEN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNG-E2-AEP" userLabel="SEVEN">
-                                                <rect key="frame" x="199" y="0.0" width="103.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="265.66666666666669" y="0.0" width="103.66666666666669" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EIGHT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh5-Sb-yBG" userLabel="EIGHT">
-                                                <rect key="frame" x="449" y="0.0" width="95" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="583" y="0.0" width="95" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="wCY-dF-324">
-                                        <rect key="frame" x="0.0" y="423" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="267" width="678" height="44.666666666666686"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NINE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhG-BW-Rtp" userLabel="NINE">
-                                                <rect key="frame" x="0.0" y="0.0" width="74.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="74.333333333333329" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qd7-xf-DAT" userLabel="TEN">
-                                                <rect key="frame" x="218.5" y="0.0" width="62" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="285.66666666666669" y="0.0" width="61.666666666666686" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ELEVEN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrp-Hp-00n" userLabel="ELEVEN">
-                                                <rect key="frame" x="424.5" y="0.0" width="119.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="558.33333333333337" y="0.0" width="119.66666666666663" height="44.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="e2c-hF-yFT">
-                                        <rect key="frame" x="0.0" y="493.5" width="544" height="70.5"/>
+                                        <rect key="frame" x="0.0" y="311.66666666666669" width="678" height="44.333333333333314"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TWELVE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evf-w3-sTm" userLabel="TWELVE">
-                                                <rect key="frame" x="0.0" y="0.0" width="126.5" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="0.0" y="0.0" width="126.66666666666667" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O′CLOCK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc1-kw-aT3">
-                                                <rect key="frame" x="402" y="0.0" width="142" height="70.5"/>
-                                                <animations/>
+                                                <rect key="frame" x="537.66666666666663" y="0.0" width="140.33333333333337" height="44.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 </variation>
                                             </label>
                                         </subviews>
-                                        <animations/>
                                     </stackView>
                                 </subviews>
-                                <animations/>
                             </stackView>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LT7-Zi-zlD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="8hg-tt-Psh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LT7-Zi-zlD" secondAttribute="trailing" constant="8" id="FBz-nA-Kfd"/>
@@ -340,6 +309,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-17" y="-41"/>
         </scene>
     </scenes>
 </document>
