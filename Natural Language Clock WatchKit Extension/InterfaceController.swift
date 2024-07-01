@@ -31,8 +31,12 @@ class InterfaceController: WKInterfaceController {
 
     var updateTimer: Timer?
     var labelProvider: LabelProvider?
+    
+    override init() {
+        super.init()
+    }
 
-    func awakeWithContext(context: AnyObject?) {
+    override func awake(withContext context: Any?) {
         super.awake(withContext: context)
 
         let labels = NaturalTimeLabels(
@@ -61,7 +65,7 @@ class InterfaceController: WKInterfaceController {
             oclockLabel: oclockLabel
         )
 
-        labelProvider = LabelProvider(labels: labels, onColor: UIColor.white, offColor: UIColor.darkGray)
+        self.labelProvider = LabelProvider(labels: labels, onColor: UIColor.white, offColor: UIColor.darkGray)
     }
 
     override func willActivate() {
