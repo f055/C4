@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1BCFCABC1B87A16F006C49DF"
-               BuildableName = "Natural Language Clock WatchKit App.app"
-               BlueprintName = "Natural Language Clock WatchKit App"
-               ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+               BuildableName = "Timestand WatchKit App.app"
+               BlueprintName = "Timestand WatchKit App"
+               ReferencedContainer = "container:Timestand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,8 +31,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1BCFCA9F1B87A16F006C49DF"
                BuildableName = "Timestand Text Time Word Clock Nightstand.app"
-               BlueprintName = "Natural Language Clock"
-               ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+               BlueprintName = "Timestand"
+               ReferencedContainer = "container:Timestand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -59,9 +59,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1BCFCABC1B87A16F006C49DF"
-            BuildableName = "Natural Language Clock WatchKit App.app"
-            BlueprintName = "Natural Language Clock WatchKit App"
-            ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+            BuildableName = "Timestand WatchKit App.app"
+            BlueprintName = "Timestand WatchKit App"
+            ReferencedContainer = "container:Timestand.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1BCFCABC1B87A16F006C49DF"
-            BuildableName = "Natural Language Clock WatchKit App.app"
-            BlueprintName = "Natural Language Clock WatchKit App"
-            ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+            BuildableName = "Timestand WatchKit App.app"
+            BlueprintName = "Timestand WatchKit App"
+            ReferencedContainer = "container:Timestand.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

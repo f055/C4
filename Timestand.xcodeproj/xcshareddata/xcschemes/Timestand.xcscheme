@@ -17,8 +17,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1BCFCA9F1B87A16F006C49DF"
                BuildableName = "Timestand Text Time Word Clock Nightstand.app"
-               BlueprintName = "Natural Language Clock"
-               ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+               BlueprintName = "Timestand"
+               ReferencedContainer = "container:Timestand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1BCFCAB31B87A16F006C49DF"
-               BuildableName = "Natural Language ClockTests.xctest"
-               BlueprintName = "Natural Language ClockTests"
-               ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+               BuildableName = "TimestandTests.xctest"
+               BlueprintName = "TimestandTests"
+               ReferencedContainer = "container:Timestand.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,8 +58,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1BCFCA9F1B87A16F006C49DF"
             BuildableName = "Timestand Text Time Word Clock Nightstand.app"
-            BlueprintName = "Natural Language Clock"
-            ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+            BlueprintName = "Timestand"
+            ReferencedContainer = "container:Timestand.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -75,8 +75,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1BCFCA9F1B87A16F006C49DF"
             BuildableName = "Timestand Text Time Word Clock Nightstand.app"
-            BlueprintName = "Natural Language Clock"
-            ReferencedContainer = "container:Natural Language Clock.xcodeproj">
+            BlueprintName = "Timestand"
+            ReferencedContainer = "container:Timestand.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

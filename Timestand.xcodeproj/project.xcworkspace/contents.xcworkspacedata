@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Natural Language Clock.xcodeproj">
+      location = "self:/Users/mf/Documents/GitHub/C4/Timestand.xcodeproj">
    </FileRef>
 </Workspace>

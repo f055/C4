@@ -12,11 +12,11 @@
 		1BCFCAA91B87A16F006C49DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCFCAA71B87A16F006C49DF /* Main.storyboard */; };
 		1BCFCAAB1B87A16F006C49DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCFCAAA1B87A16F006C49DF /* Assets.xcassets */; };
 		1BCFCAAE1B87A16F006C49DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCFCAAC1B87A16F006C49DF /* LaunchScreen.storyboard */; };
-		1BCFCAB91B87A16F006C49DF /* Natural_Language_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCFCAB81B87A16F006C49DF /* Natural_Language_ClockTests.swift */; };
-		1BCFCABE1B87A16F006C49DF /* Natural Language Clock WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BCFCABD1B87A16F006C49DF /* Natural Language Clock WatchKit App.app */; };
+		1BCFCAB91B87A16F006C49DF /* TimestandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCFCAB81B87A16F006C49DF /* TimestandTests.swift */; };
+		1BCFCABE1B87A16F006C49DF /* Timestand WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BCFCABD1B87A16F006C49DF /* Timestand WatchKit App.app */; };
 		1BCFCAC41B87A16F006C49DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCFCAC21B87A16F006C49DF /* Interface.storyboard */; };
 		1BCFCAC61B87A16F006C49DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCFCAC51B87A16F006C49DF /* Assets.xcassets */; };
-		1BCFCACD1B87A16F006C49DF /* Natural Language Clock WatchKit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1BCFCACC1B87A16F006C49DF /* Natural Language Clock WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BCFCACD1B87A16F006C49DF /* Timestand WatchKit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1BCFCACC1B87A16F006C49DF /* Timestand WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1BCFCAD21B87A16F006C49DF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCFCAD11B87A16F006C49DF /* InterfaceController.swift */; };
 		1BCFCAD41B87A16F006C49DF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCFCAD31B87A16F006C49DF /* ExtensionDelegate.swift */; };
 		1BCFCAD61B87A16F006C49DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCFCAD51B87A16F006C49DF /* Assets.xcassets */; };
@@ -32,21 +32,21 @@
 			containerPortal = 1BCFCA981B87A16F006C49DF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BCFCA9F1B87A16F006C49DF;
-			remoteInfo = "Natural Language Clock";
+			remoteInfo = "Timestand";
 		};
 		1BCFCABF1B87A16F006C49DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BCFCA981B87A16F006C49DF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BCFCABC1B87A16F006C49DF;
-			remoteInfo = "Natural Language Clock WatchKit App";
+			remoteInfo = "Timestand WatchKit App";
 		};
 		1BCFCACE1B87A16F006C49DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BCFCA981B87A16F006C49DF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BCFCACB1B87A16F006C49DF;
-			remoteInfo = "Natural Language Clock WatchKit Extension";
+			remoteInfo = "Timestand WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,7 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1BCFCACD1B87A16F006C49DF /* Natural Language Clock WatchKit Extension.appex in Embed Foundation Extensions */,
+				1BCFCACD1B87A16F006C49DF /* Timestand WatchKit Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				1BCFCABE1B87A16F006C49DF /* Natural Language Clock WatchKit App.app in Embed Watch Content */,
+				1BCFCABE1B87A16F006C49DF /* Timestand WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,14 +83,14 @@
 		1BCFCAAA1B87A16F006C49DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCFCAAD1B87A16F006C49DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCFCAAF1B87A16F006C49DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BCFCAB41B87A16F006C49DF /* Natural Language ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Natural Language ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BCFCAB81B87A16F006C49DF /* Natural_Language_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Natural_Language_ClockTests.swift; sourceTree = "<group>"; };
+		1BCFCAB41B87A16F006C49DF /* TimestandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimestandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCFCAB81B87A16F006C49DF /* TimestandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimestandTests.swift; sourceTree = "<group>"; };
 		1BCFCABA1B87A16F006C49DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BCFCABD1B87A16F006C49DF /* Natural Language Clock WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Natural Language Clock WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCFCABD1B87A16F006C49DF /* Timestand WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timestand WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCFCAC31B87A16F006C49DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1BCFCAC51B87A16F006C49DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCFCAC71B87A16F006C49DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BCFCACC1B87A16F006C49DF /* Natural Language Clock WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Natural Language Clock WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCFCACC1B87A16F006C49DF /* Timestand WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Timestand WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCFCAD11B87A16F006C49DF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		1BCFCAD31B87A16F006C49DF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		1BCFCAD51B87A16F006C49DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,10 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				1BF2820A1B87DDF10044DF80 /* Common */,
-				1BCFCAA21B87A16F006C49DF /* Natural Language Clock */,
-				1BCFCAB71B87A16F006C49DF /* Natural Language ClockTests */,
-				1BCFCAC11B87A16F006C49DF /* Natural Language Clock WatchKit App */,
-				1BCFCAD01B87A16F006C49DF /* Natural Language Clock WatchKit Extension */,
+				1BCFCAA21B87A16F006C49DF /* Timestand */,
+				1BCFCAB71B87A16F006C49DF /* TimestandTests */,
+				1BCFCAC11B87A16F006C49DF /* Timestand WatchKit App */,
+				1BCFCAD01B87A16F006C49DF /* Timestand WatchKit Extension */,
 				1BCFCAA11B87A16F006C49DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,14 +141,14 @@
 			isa = PBXGroup;
 			children = (
 				1BCFCAA01B87A16F006C49DF /* Timestand Text Time Word Clock Nightstand.app */,
-				1BCFCAB41B87A16F006C49DF /* Natural Language ClockTests.xctest */,
-				1BCFCABD1B87A16F006C49DF /* Natural Language Clock WatchKit App.app */,
-				1BCFCACC1B87A16F006C49DF /* Natural Language Clock WatchKit Extension.appex */,
+				1BCFCAB41B87A16F006C49DF /* TimestandTests.xctest */,
+				1BCFCABD1B87A16F006C49DF /* Timestand WatchKit App.app */,
+				1BCFCACC1B87A16F006C49DF /* Timestand WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BCFCAA21B87A16F006C49DF /* Natural Language Clock */ = {
+		1BCFCAA21B87A16F006C49DF /* Timestand */ = {
 			isa = PBXGroup;
 			children = (
 				1BCFCAA31B87A16F006C49DF /* AppDelegate.swift */,
@@ -158,29 +158,29 @@
 				1BCFCAAC1B87A16F006C49DF /* LaunchScreen.storyboard */,
 				1BCFCAAF1B87A16F006C49DF /* Info.plist */,
 			);
-			path = "Natural Language Clock";
+			path = Timestand;
 			sourceTree = "<group>";
 		};
-		1BCFCAB71B87A16F006C49DF /* Natural Language ClockTests */ = {
+		1BCFCAB71B87A16F006C49DF /* TimestandTests */ = {
 			isa = PBXGroup;
 			children = (
-				1BCFCAB81B87A16F006C49DF /* Natural_Language_ClockTests.swift */,
+				1BCFCAB81B87A16F006C49DF /* TimestandTests.swift */,
 				1BCFCABA1B87A16F006C49DF /* Info.plist */,
 			);
-			path = "Natural Language ClockTests";
+			path = TimestandTests;
 			sourceTree = "<group>";
 		};
-		1BCFCAC11B87A16F006C49DF /* Natural Language Clock WatchKit App */ = {
+		1BCFCAC11B87A16F006C49DF /* Timestand WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				1BCFCAC21B87A16F006C49DF /* Interface.storyboard */,
 				1BCFCAC51B87A16F006C49DF /* Assets.xcassets */,
 				1BCFCAC71B87A16F006C49DF /* Info.plist */,
 			);
-			path = "Natural Language Clock WatchKit App";
+			path = "Timestand WatchKit App";
 			sourceTree = "<group>";
 		};
-		1BCFCAD01B87A16F006C49DF /* Natural Language Clock WatchKit Extension */ = {
+		1BCFCAD01B87A16F006C49DF /* Timestand WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				1BCFCAD11B87A16F006C49DF /* InterfaceController.swift */,
@@ -188,7 +188,7 @@
 				1BCFCAD51B87A16F006C49DF /* Assets.xcassets */,
 				1BCFCAD71B87A16F006C49DF /* Info.plist */,
 			);
-			path = "Natural Language Clock WatchKit Extension";
+			path = "Timestand WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		1BF2820A1B87DDF10044DF80 /* Common */ = {
@@ -204,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BCFCA9F1B87A16F006C49DF /* Natural Language Clock */ = {
+		1BCFCA9F1B87A16F006C49DF /* Timestand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCFCAE21B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language Clock" */;
+			buildConfigurationList = 1BCFCAE21B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Timestand" */;
 			buildPhases = (
 				1BCFCA9C1B87A16F006C49DF /* Sources */,
 				1BCFCA9D1B87A16F006C49DF /* Frameworks */,
@@ -218,14 +218,14 @@
 			dependencies = (
 				1BCFCAC01B87A16F006C49DF /* PBXTargetDependency */,
 			);
-			name = "Natural Language Clock";
-			productName = "Natural Language Clock";
+			name = "Timestand";
+			productName = "Timestand";
 			productReference = 1BCFCAA01B87A16F006C49DF /* Timestand Text Time Word Clock Nightstand.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1BCFCAB31B87A16F006C49DF /* Natural Language ClockTests */ = {
+		1BCFCAB31B87A16F006C49DF /* TimestandTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCFCAE51B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language ClockTests" */;
+			buildConfigurationList = 1BCFCAE51B87A16F006C49DF /* Build configuration list for PBXNativeTarget "TimestandTests" */;
 			buildPhases = (
 				1BCFCAB01B87A16F006C49DF /* Sources */,
 				1BCFCAB11B87A16F006C49DF /* Frameworks */,
@@ -236,14 +236,14 @@
 			dependencies = (
 				1BCFCAB61B87A16F006C49DF /* PBXTargetDependency */,
 			);
-			name = "Natural Language ClockTests";
-			productName = "Natural Language ClockTests";
-			productReference = 1BCFCAB41B87A16F006C49DF /* Natural Language ClockTests.xctest */;
+			name = "TimestandTests";
+			productName = "TimestandTests";
+			productReference = 1BCFCAB41B87A16F006C49DF /* TimestandTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1BCFCABC1B87A16F006C49DF /* Natural Language Clock WatchKit App */ = {
+		1BCFCABC1B87A16F006C49DF /* Timestand WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCFCADE1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language Clock WatchKit App" */;
+			buildConfigurationList = 1BCFCADE1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Timestand WatchKit App" */;
 			buildPhases = (
 				1BCFCABB1B87A16F006C49DF /* Resources */,
 				1BCFCADD1B87A16F006C49DF /* Embed Foundation Extensions */,
@@ -253,14 +253,14 @@
 			dependencies = (
 				1BCFCACF1B87A16F006C49DF /* PBXTargetDependency */,
 			);
-			name = "Natural Language Clock WatchKit App";
-			productName = "Natural Language Clock WatchKit App";
-			productReference = 1BCFCABD1B87A16F006C49DF /* Natural Language Clock WatchKit App.app */;
+			name = "Timestand WatchKit App";
+			productName = "Timestand WatchKit App";
+			productReference = 1BCFCABD1B87A16F006C49DF /* Timestand WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		1BCFCACB1B87A16F006C49DF /* Natural Language Clock WatchKit Extension */ = {
+		1BCFCACB1B87A16F006C49DF /* Timestand WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCFCADA1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language Clock WatchKit Extension" */;
+			buildConfigurationList = 1BCFCADA1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Timestand WatchKit Extension" */;
 			buildPhases = (
 				1BCFCAC81B87A16F006C49DF /* Sources */,
 				1BCFCAC91B87A16F006C49DF /* Frameworks */,
@@ -270,9 +270,9 @@
 			);
 			dependencies = (
 			);
-			name = "Natural Language Clock WatchKit Extension";
-			productName = "Natural Language Clock WatchKit Extension";
-			productReference = 1BCFCACC1B87A16F006C49DF /* Natural Language Clock WatchKit Extension.appex */;
+			name = "Timestand WatchKit Extension";
+			productName = "Timestand WatchKit Extension";
+			productReference = 1BCFCACC1B87A16F006C49DF /* Timestand WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -300,7 +300,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BCFCA9B1B87A16F006C49DF /* Build configuration list for PBXProject "Natural Language Clock" */;
+			buildConfigurationList = 1BCFCA9B1B87A16F006C49DF /* Build configuration list for PBXProject "Timestand" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -313,10 +313,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BCFCA9F1B87A16F006C49DF /* Natural Language Clock */,
-				1BCFCAB31B87A16F006C49DF /* Natural Language ClockTests */,
-				1BCFCABC1B87A16F006C49DF /* Natural Language Clock WatchKit App */,
-				1BCFCACB1B87A16F006C49DF /* Natural Language Clock WatchKit Extension */,
+				1BCFCA9F1B87A16F006C49DF /* Timestand */,
+				1BCFCAB31B87A16F006C49DF /* TimestandTests */,
+				1BCFCABC1B87A16F006C49DF /* Timestand WatchKit App */,
+				1BCFCACB1B87A16F006C49DF /* Timestand WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -374,7 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCFCAB91B87A16F006C49DF /* Natural_Language_ClockTests.swift in Sources */,
+				1BCFCAB91B87A16F006C49DF /* TimestandTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,17 +394,17 @@
 /* Begin PBXTargetDependency section */
 		1BCFCAB61B87A16F006C49DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BCFCA9F1B87A16F006C49DF /* Natural Language Clock */;
+			target = 1BCFCA9F1B87A16F006C49DF /* Timestand */;
 			targetProxy = 1BCFCAB51B87A16F006C49DF /* PBXContainerItemProxy */;
 		};
 		1BCFCAC01B87A16F006C49DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BCFCABC1B87A16F006C49DF /* Natural Language Clock WatchKit App */;
+			target = 1BCFCABC1B87A16F006C49DF /* Timestand WatchKit App */;
 			targetProxy = 1BCFCABF1B87A16F006C49DF /* PBXContainerItemProxy */;
 		};
 		1BCFCACF1B87A16F006C49DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BCFCACB1B87A16F006C49DF /* Natural Language Clock WatchKit Extension */;
+			target = 1BCFCACB1B87A16F006C49DF /* Timestand WatchKit Extension */;
 			targetProxy = 1BCFCACE1B87A16F006C49DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -548,13 +548,13 @@
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = D5634F8X67;
-				INFOPLIST_FILE = "Natural Language Clock WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Timestand WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-Clock.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.Timestand.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -569,13 +569,13 @@
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = D5634F8X67;
-				INFOPLIST_FILE = "Natural Language Clock WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Timestand WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-Clock.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.Timestand.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -592,9 +592,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = D5634F8X67;
-				IBSC_MODULE = Natural_Language_Clock_WatchKit_Extension;
-				INFOPLIST_FILE = "Natural Language Clock WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-Clock.watchkitapp";
+				IBSC_MODULE = Timestand_WatchKit_Extension;
+				INFOPLIST_FILE = "Timestand WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.Timestand.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -610,9 +610,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = D5634F8X67;
-				IBSC_MODULE = Natural_Language_Clock_WatchKit_Extension;
-				INFOPLIST_FILE = "Natural Language Clock WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-Clock.watchkitapp";
+				IBSC_MODULE = Timestand_WatchKit_Extension;
+				INFOPLIST_FILE = "Timestand WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.Timestand.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -627,7 +627,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = D5634F8X67;
-				INFOPLIST_FILE = "Natural Language Clock/Info.plist";
+				INFOPLIST_FILE = "Timestand/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Timestand;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -636,7 +636,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-Clock";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.Timestand;
 				PRODUCT_NAME = "Timestand Text Time Word Clock Nightstand";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -649,7 +649,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = D5634F8X67;
-				INFOPLIST_FILE = "Natural Language Clock/Info.plist";
+				INFOPLIST_FILE = "Timestand/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Timestand;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -658,7 +658,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-Clock";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.Timestand;
 				PRODUCT_NAME = "Timestand Text Time Word Clock Nightstand";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -670,17 +670,17 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = D5634F8X67;
-				INFOPLIST_FILE = "Natural Language ClockTests/Info.plist";
+				INFOPLIST_FILE = "TimestandTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-ClockTests";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.TimestandTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Natural Language Clock.app/Natural Language Clock";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timestand.app/Timestand";
 			};
 			name = Debug;
 		};
@@ -689,24 +689,24 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = D5634F8X67;
-				INFOPLIST_FILE = "Natural Language ClockTests/Info.plist";
+				INFOPLIST_FILE = "TimestandTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "agency.brightfuture.Natural-Language-ClockTests";
+				PRODUCT_BUNDLE_IDENTIFIER = agency.brightfuture.TimestandTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Natural Language Clock.app/Natural Language Clock";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timestand.app/Timestand";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BCFCA9B1B87A16F006C49DF /* Build configuration list for PBXProject "Natural Language Clock" */ = {
+		1BCFCA9B1B87A16F006C49DF /* Build configuration list for PBXProject "Timestand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCFCAD81B87A16F006C49DF /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCFCADA1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language Clock WatchKit Extension" */ = {
+		1BCFCADA1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Timestand WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCFCADB1B87A16F006C49DF /* Debug */,
@@ -724,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCFCADE1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language Clock WatchKit App" */ = {
+		1BCFCADE1B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Timestand WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCFCADF1B87A16F006C49DF /* Debug */,
@@ -733,7 +733,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCFCAE21B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language Clock" */ = {
+		1BCFCAE21B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Timestand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCFCAE31B87A16F006C49DF /* Debug */,
@@ -742,7 +742,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCFCAE51B87A16F006C49DF /* Build configuration list for PBXNativeTarget "Natural Language ClockTests" */ = {
+		1BCFCAE51B87A16F006C49DF /* Build configuration list for PBXNativeTarget "TimestandTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCFCAE61B87A16F006C49DF /* Debug */,

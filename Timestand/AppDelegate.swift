@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Natural Language Clock
+//  Timestand
 //
 //  Created by Chad Bibler on 8/21/15.
 //  Copyright © 2015 Chad Bibler. All rights reserved.
